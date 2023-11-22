@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    font-family: 'poppins';
+}
+
+#news {
+    font-family: 'poppins';
+}
+
+#conteinerNews {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+}

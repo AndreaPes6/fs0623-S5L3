@@ -1,0 +1,66 @@
+body {
+    color: #612406;
+}
+
+main h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#cardConteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ProductConteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FBF7E3;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+
+.ProductConteiner img {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.conteinerDetail {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteinerDetail p {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.ProductConteiner button {
+    color: #612406;
+    font-weight: 600;
+    width: 75%;
+    border-radius: 1rem;
+    border: none;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0rem;
+    background-color: #F3DF85;
+}
+
+.ProductConteiner button:hover {
+    background-color: #f3df85c8;
+    cursor: pointer;
+}
+
+.grassetto {
+    font-weight: 800;
+}
